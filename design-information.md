@@ -84,7 +84,7 @@ transformations. The Tournament class should suffice.
 
 ### Final Team Design
 
-![Team - UML](https://www.dropbox.com/s/k5rwcz5ltuswyra/team.png?dl=0)
+![Team - UML](https://www.dropbox.com/s/k5rwcz5ltuswyra/team.png?raw=1)
 
 ```
 The primary commonalities that were found in the individual designs were the classes themselves. The class    
