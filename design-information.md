@@ -82,6 +82,7 @@ transformations. The Tournament class should suffice.
 
 ![Team - UML](https://www.dropbox.com/s/k5rwcz5ltuswyra/team.png?raw=1)
 
+**Commanalities and Differences**
 The primary commonalities that were found in the individual designs were the classes themselves. The class    
 definitions were interpreted generally in a similar fashion across the individual designs
 
