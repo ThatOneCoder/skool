@@ -20,7 +20,7 @@ should be able to hit the ground running and produce a good design quickly.
 
 ### Design 1
 
-![Design 1 - UML](https://www.dropbox.com/s/v7ch5oyitni33xg/design1.png?dl=0)
+![Design 1 - UML](https://www.dropbox.com/s/v7ch5oyitni33xg/design1.png)
 
 ```
 *Pros:*
