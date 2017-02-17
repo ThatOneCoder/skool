@@ -16,6 +16,7 @@ science and is familiar with UML, he wants the design to be represented using a 
 diagram. Luckily, the members of your team have some recent practice with this, so the team   
 should be able to hit the ground running and produce a good design quickly.
 
+
 ## Individual Designs
 
 ### Design 1
@@ -77,6 +78,7 @@ transformations. The Tournament class should suffice.
 * Should mode be its own class? 
 * Should attributes be provided for each player in match? 
 
+
 ## Team Design
 ### Final Team Design
 
@@ -97,6 +99,7 @@ individual designs. We felt that including the database as a utility was appropr
 Udacity lesson showing utility classes being used in a similar manner. We also felt that mode should be considered a class,    
 as it will instantiate either the tournament manager or tournament player workflow upon startup and selection. Deck was also    
 considered to be a class, as it is a tangible entity in the real world, and therefore impacts the design of the UML diagram. 
+
 
 ## Summary
 In conclusion, we found that our individual designs were generally already well aligned. The individual designs only required    
