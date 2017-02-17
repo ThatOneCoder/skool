@@ -23,63 +23,61 @@ should be able to hit the ground running and produce a good design quickly.
 ![Design 1 - UML](https://www.dropbox.com/s/v7ch5oyitni33xg/design1.png?raw=1)
 
 **Pros:**
-- There is a TournamentUser class, that has Player and manager has child classes.
-- Matches aggregates Tournaments
-- Most classes are the same as the other designs.
-- Cardinality is marked appropriately 
-- Methods are provided with a data type
-- Utilities included
+* There is a TournamentUser class, that has Player and manager has child classes.
+* Matches aggregates Tournaments
+* Most classes are the same as the other designs.
+* Cardinality is marked appropriately 
+* Methods are provided with a data type
+* Utilities included
 
 **Cons:**
 
-*   While the PastTournament class could serve as a subclass, Java doesn't really support object    
+* While the PastTournament class could serve as a subclass, Java doesn't really support object    
 transformations. The Tournament class should suffice.
-*   While the CurrentTournament class could serve as a subclass, Java doesn't really support object    
+* While the CurrentTournament class could serve as a subclass, Java doesn't really support object    
 transformations. The Tournament class should suffice.
-*   Should there be more attributes listed in the Tournament match to identify a unique match.
-*   Little cardinality is shown.
+* Should there be more attributes listed in the Tournament match to identify a unique match.
+* Little cardinality is shown.
+
+---------------------------------------
 
 ### Design 2
 
 ![Design 2 - UML](https://www.dropbox.com/s/h5bc55lnnfbza4g/design2.png?raw=1)
 
-```
-*Pros:*
-*   Most classes are the same as the other designs.
-*   Relationship texts show clear actions impacted on other classes
-*   Classes are given unique IDs to distinguish them in the database 
+**Pros:**
+* Most classes are the same as the other designs.
+* Relationship texts show clear actions impacted on other classes
+* Classes are given unique IDs to distinguish them in the database 
 
-*Cons:*
-*   Relationship between TournamentPlayer and Tournament should be written as 8, 16 (discrete values)
-*   Manager and Player can be a child of a User class.
-*   A tournament is made of many matches, use the diamond for aggregation.
-*   Should the deck be a Class (a deck can be a tangible item, thus an object at some point in time.)
-*   Cardinality between relations are incorrect
-*   Does not show the mode or database as utility classes 
-*   Data types are not provided with the attributes and methods
-```
+**Cons:**
+* Relationship between TournamentPlayer and Tournament should be written as 8, 16 (discrete values)
+* Manager and Player can be a child of a User class.
+* A tournament is made of many matches, use the diamond for aggregation.
+* Should the deck be a Class (a deck can be a tangible item, thus an object at some point in time.)
+* Cardinality between relations are incorrect
+* Does not show the mode or database as utility classes 
+* Data types are not provided with the attributes and methods
+
+---------------------------------------
 
 ### Design 3
 
 ![Design 3 - UML](https://www.dropbox.com/s/zewlo061newxpa1/design3.png?raw=1)
 
-```
-*Pros:*
-*   Most classes are the same as the other designs.
-*   Relation cardinality is clearly defined
-*   Method labels are clear to understand
+**Pros:**
+* Most classes are the same as the other designs.
+* Relation cardinality is clearly defined
+* Method labels are clear to understand
 
-*Cons:*
+**Cons:**
+* Methods are not on the classes which should be affected by the action. Many classes are affected by this:
+* ShowPlayerTotal() should be in the Player class.
+* Manager class should not contain methods.
+* Should mode be its own class? 
+* Should attributes be provided for each player in match? 
 
-*   Methods are not on the classes which should be affected by the action. Many classes are affected by this:
-*   ShowPlayerTotal() should be in the Player class.
-*   Manager class should not contain methods.
-*   Should mode be its own class? 
-*   Should attributes be provided for each player in match? 
-
-```
 ## Team Design
-
 ### Final Team Design
 
 ![Team - UML](https://www.dropbox.com/s/k5rwcz5ltuswyra/team.png?raw=1)
