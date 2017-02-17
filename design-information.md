@@ -20,7 +20,7 @@ should be able to hit the ground running and produce a good design quickly.
 
 ### Design 1
 
-![Design 1 - UML](https://www.dropbox.com/s/v7ch5oyitni33xg/design1.png)
+![Design 1 - UML](https://www.dropbox.com/s/v7ch5oyitni33xg/design1.png?raw=1)
 
 ```
 *Pros:*
@@ -43,7 +43,7 @@ transformations. The Tournament class should suffice.
 
 ### Design 2
 
-![Design 2 - UML](https://www.dropbox.com/s/h5bc55lnnfbza4g/design2.png?dl=0)
+![Design 2 - UML](https://www.dropbox.com/s/h5bc55lnnfbza4g/design2.png?raw=1)
 
 ```
 *Pros:*
@@ -63,7 +63,7 @@ transformations. The Tournament class should suffice.
 
 ### Design 3
 
-![Design 3 - UML](https://www.dropbox.com/s/zewlo061newxpa1/design3.png?dl=0)
+![Design 3 - UML](https://www.dropbox.com/s/zewlo061newxpa1/design3.png?raw=1)
 
 ```
 *Pros:*
