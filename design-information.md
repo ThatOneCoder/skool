@@ -23,15 +23,15 @@ should be able to hit the ground running and produce a good design quickly.
 ![Design 1 - UML](https://www.dropbox.com/s/v7ch5oyitni33xg/design1.png?raw=1)
 
 ```
-*Pros:*
-*   There is a TournamentUser class, that has Player and manager has child classes.
-*   Matches aggregates Tournaments
-*   Most classes are the same as the other designs.
-*   Cardinality is marked appropriately 
-*   Methods are provided with a data type
-*   Utilities included
+**Pros:**
+- There is a TournamentUser class, that has Player and manager has child classes.
+- Matches aggregates Tournaments
+- Most classes are the same as the other designs.
+- Cardinality is marked appropriately 
+- Methods are provided with a data type
+- Utilities included
 
-*Cons:*
+**Cons:**
 
 *   While the PastTournament class could serve as a subclass, Java doesn't really support object    
 transformations. The Tournament class should suffice.
