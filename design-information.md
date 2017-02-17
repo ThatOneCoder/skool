@@ -100,5 +100,4 @@ considered to be a class, as it is a tangible entity in the real world, and ther
 ## Summary
 In conclusion, we found that our individual designs were generally already well aligned. The individual designs only required    
 minor clarification to gain consensus on what the team design should look like. We believe a key lesson learned is the    
-open-ended nature of analysing requirements. In particular, how one requirement can not only be interpreted in multiple ways,   
-but also be satisfied sometimes in as many ways as it is interpreted as long as the expected result is provided from the requirement.  
+open-ended nature of analysing requirements. In particular, how one requirement can not only be interpreted in multiple ways, but also be satisfied sometimes in as many ways as it is interpreted as long as the expected result is provided from the requirement.  
