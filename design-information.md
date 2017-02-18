@@ -6,16 +6,7 @@ create an agreed upon 'final design'.
 
 ## Background
 
-Leeroy is happy that you have given him a design for his Tourney Manager application in   
-Assignment 5. Perhaps you should have expected it from anyone running a tournament ring in a   
-college dormitory, but he has also requested designs from all of his other friends, and would   
-now like to see what a team of programmers can accomplish to help him manage his egaming   
-tournaments. He has therefore requested that a team of you complete a group design, by   
-following the instructions he has provided below. Because Leeroy is also studying computer   
-science and is familiar with UML, he wants the design to be represented using a UML class   
-diagram. Luckily, the members of your team have some recent practice with this, so the team   
-should be able to hit the ground running and produce a good design quickly.
-
+Leeroy is happy that you have given him a design for his Tourney Manager application in Assignment 5. Perhaps you should have expected it from anyone running a tournament ring in a college dormitory, but he has also requested designs from all of his other friends, and would now like to see what a team of programmers can accomplish to help him manage his egaming tournaments. He has therefore requested that a team of you complete a group design, by following the instructions he has provided below. Because Leeroy is also studying computer science and is familiar with UML, he wants the design to be represented using a UML class diagram. Luckily, the members of your team have some recent practice with this, so the team should be able to hit the ground running and produce a good design quickly.
 
 ## Individual Designs
 
@@ -85,23 +76,12 @@ transformations. The Tournament class should suffice.
 ![Team - UML](https://www.dropbox.com/s/k5rwcz5ltuswyra/team.png?raw=1)
 
 ### Commanalities and Differences
-The primary commonalities that were found in the individual designs were the classes themselves. The class    
-definitions were interpreted generally in a similar fashion across the individual designs
+* The primary commonalities that were found in the individual designs were the classes themselves. The class definitions were interpreted generally in a similar fashion across the individual designs.
 
-Some of the primary differences, however, were in how the individual designs interpreted which requirements    
-impacted the design of the UML diagram. In one design, the Mode was shown as an individual class. In another, Mode    
-was interpreted as a Utility class. And in the third design it was not represented at all. This was also similarly the case    
-for the database and the Deck Choice of the player. 
+* Some of the primary differences, however, were in how the individual designs interpreted which requirements impacted the design of the UML diagram. In one design, the Mode was shown as an individual class. In another, Mode was interpreted as a Utility class. And in the third design it was not represented at all. This was also similarly the case for the database and the Deck Choice of the player. 
 
-In the final design we resolved the differences between the individual designs by including database as a utility class,    
-Mode and Deck also as classes, and finally removing the remaining two uncommon classes that were not seen across all    
-individual designs. We felt that including the database as a utility was appropriate given the video demonstration in the    
-Udacity lesson showing utility classes being used in a similar manner. We also felt that mode should be considered a class,    
-as it will instantiate either the tournament manager or tournament player workflow upon startup and selection. Deck was also    
-considered to be a class, as it is a tangible entity in the real world, and therefore impacts the design of the UML diagram. 
+* In the final design we resolved the differences between the individual designs by including database as a utility class, Mode and Deck also as classes, and finally removing the remaining two uncommon classes that were not seen across all individual designs. We felt that including the database as a utility was appropriate given the video demonstration in the Udacity lesson showing utility classes being used in a similar manner. We also felt that mode should be considered a class, as it will instantiate either the tournament manager or tournament player workflow upon startup and selection. Deck was also considered to be a class, as it is a tangible entity in the real world, and therefore impacts the design of the UML diagram. 
 
 
 ## Summary
-In conclusion, we found that our individual designs were generally already well aligned. The individual designs only required    
-minor clarification to gain consensus on what the team design should look like. We believe a key lesson learned is the    
-open-ended nature of analysing requirements. In particular, how one requirement can not only be interpreted in multiple ways, but also be satisfied sometimes in as many ways as it is interpreted as long as the expected result is provided from the requirement.  
+In conclusion, we found that our individual designs were generally already well aligned. The individual designs only required minor clarification to gain consensus on what the team design should look like. We believe a key lesson learned is the open-ended nature of analysing requirements. In particular, how one requirement can not only be interpreted in multiple ways, but also be satisfied sometimes in as many ways as it is interpreted as long as the expected result is provided from the requirement.  
