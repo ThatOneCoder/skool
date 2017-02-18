@@ -75,7 +75,7 @@ transformations. The Tournament class should suffice.
 
 ![Team - UML](https://www.dropbox.com/s/k5rwcz5ltuswyra/team.png?raw=1)
 
-### Commanalities and Differences
+### Commonalities and Differences
 * The primary commonalities that were found in the individual designs were the classes themselves. The class definitions were interpreted generally in a similar fashion across the individual designs.
 
 * Some of the primary differences, however, were in how the individual designs interpreted which requirements impacted the design of the UML diagram. In one design, the Mode was shown as an individual class. In another, Mode was interpreted as a Utility class. And in the third design it was not represented at all. This was also similarly the case for the database and the Deck Choice of the player. 
