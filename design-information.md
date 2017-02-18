@@ -1,8 +1,6 @@
 # Tourney Manager Group Project - Deliverable 1
 
-This assignment is a continuation of the Tourney Manager application. Group 2 has    
-collaborated together, analysing their individual designs, with the attempt to   
-create an agreed upon 'final design'. 
+This assignment is a continuation of the Tourney Manager application. Group 2 has collaborated together, analysing their individual designs, with the attempt to create an agreed upon 'final design'.
 
 ## Background
 
