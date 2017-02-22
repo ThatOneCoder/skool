@@ -9,13 +9,6 @@
 
 ## 2 Process Description
 
-*Process description as a set of activities; for each activity, provide the following:*
-
-- *Activity name (verb or verb phrase)*
-- *Activity description (concise paragraph)*
-- *Entrance criteria (inputs needed for the activity)*
-- *Exit criteria (outputs produced by the activity and how you know it has been completed satisfactorily)*
-
 ###1. Inception Activity
 
  > This is the activity in which our team will describe the initial requirements, delimit the scope of the project, justify the business case for the system, determine the system's interaction with people, organization and external systems and develop a preliminary risk assessment, schedule and time estimates.
