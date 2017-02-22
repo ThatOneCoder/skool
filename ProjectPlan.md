@@ -5,7 +5,7 @@
 
 ## 1 Introduction
 
-> Leeroy has asked Team 02 to develop a tournament prize pool calculator Android app. This application will be used to help Tournament Managers manage tournaments while allowing Tournament Players to manage their profits, earnings, tournament placings and more.
+Leeroy has asked Team 02 to develop a tournament prize pool calculator Android app. This application will be used to help Tournament Managers manage tournaments while allowing Tournament Players to manage their profits, earnings, tournament placings and more.
 
 ## 2 Process Description
 
