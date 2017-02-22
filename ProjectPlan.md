@@ -1,5 +1,5 @@
 # Project Plan 
-## Tourney Manager Group Project - Deliverable 2
+### Tourney Manager Group Project - Deliverable 2
 
 **Author**: Heath Dinkins - Team 02
 
