@@ -107,7 +107,7 @@
  
 | Team Member          | Role         |
 | :------------ |:---------------:| 
-| Moss      | Project Manager, QA Manager           | 
-| Gerard      | Architect  | 
-| Heath    | Lead Developer          | 
+| Moss      | Project Manager, Technical Writer           | 
+| Gerard      | Architect, QA Manager  | 
+| Heath    | Lead Developer, Tester          | 
 
